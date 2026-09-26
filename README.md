@@ -1,6 +1,6 @@
-# Faiz Wahbeh — Bilingual Landing Page
+# Fayiz Wahbeh — Bilingual Landing Page
 
-Static, frontend-only landing page for Faiz Wahbeh (fire bricks, clay tiles and architectural bricks, since 1970).
+Static, frontend-only landing page for Fayiz Wahbeh (fire bricks, clay tiles and architectural bricks, since 1970).
 Built with React, TypeScript, Vite, Tailwind CSS, GSAP + ScrollTrigger, Lenis, SplitType and i18next (English / Arabic with full RTL).
 
 ## Commands
