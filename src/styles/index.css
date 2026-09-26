@@ -1,0 +1,265 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- Tokens ---------- */
+:root {
+  --font-sans: 'Manrope', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --header-h: 88px;
+  --gutter: clamp(1.25rem, 4vw, 3.5rem);
+  --ease-premium: cubic-bezier(0.22, 1, 0.36, 1);
+  /* Slanted edge borrowed from the F stroke of the mark */
+  --slant: 9%;
+  --dir: 1;
+}
+
+html[lang='ar'] {
+  --font-sans: 'IBM Plex Sans Arabic', 'Manrope', system-ui, sans-serif;
+}
+
+html[dir='rtl'] {
+  --dir: -1;
+}
+
+/* ---------- Base ---------- */
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-cream font-sans text-charcoal;
+    overflow-x: clip;
+  }
+
+  ::selection {
+    @apply bg-terracotta text-cream;
+  }
+
+  :focus-visible {
+    outline: 2px solid theme('colors.terracotta.DEFAULT');
+    outline-offset: 3px;
+  }
+
+  section:focus,
+  main:focus {
+    outline: none;
+  }
+
+  img {
+    @apply select-none;
+  }
+}
+
+/* ---------- Lenis ---------- */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+html.scroll-locked,
+html.scroll-locked body {
+  overflow: hidden;
+}
+
+/* ---------- Components ---------- */
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-site;
+    padding-inline: var(--gutter);
+  }
+
+  .section-y {
+    padding-block: clamp(5rem, 11vw, 10rem);
+  }
+
+  /* Display typography */
+  .text-display-xl {
+    font-size: clamp(2.6rem, 6.4vw, 6.75rem);
+    line-height: 0.98;
+    letter-spacing: -0.035em;
+    font-weight: 800;
+  }
+  .text-display {
+    font-size: clamp(2.25rem, 4.8vw, 4.75rem);
+    line-height: 1.02;
+    letter-spacing: -0.03em;
+    font-weight: 750;
+  }
+  .text-h2 {
+    font-size: clamp(2rem, 3.6vw, 3.6rem);
+    line-height: 1.06;
+    letter-spacing: -0.025em;
+    font-weight: 700;
+  }
+  .text-h3 {
+    font-size: clamp(1.4rem, 2vw, 2rem);
+    line-height: 1.15;
+    letter-spacing: -0.015em;
+    font-weight: 700;
+  }
+  .text-lead {
+    font-size: clamp(1.05rem, 1.25vw, 1.25rem);
+    line-height: 1.7;
+  }
+  .text-eyebrow {
+    font-size: 0.75rem;
+    line-height: 1;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  html[lang='ar'] .text-display-xl,
+  html[lang='ar'] .text-display,
+  html[lang='ar'] .text-h2,
+  html[lang='ar'] .text-h3 {
+    letter-spacing: 0;
+    line-height: 1.3;
+  }
+  html[lang='ar'] .text-display-xl {
+    font-size: clamp(2.3rem, 5.4vw, 5.6rem);
+    font-weight: 700;
+  }
+  html[lang='ar'] .text-eyebrow {
+    letter-spacing: 0;
+    font-size: 0.875rem;
+  }
+
+  .text-outline {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1.5px currentColor;
+  }
+
+  /* Brand shapes */
+  .shape-bar {
+    /* The trapezoid top bar of the mark */
+    clip-path: polygon(6% 0, 96.5% 0, 100% 100%, 0 100%);
+  }
+  .mask-slant {
+    clip-path: polygon(var(--slant) 0, 100% 0, 100% 100%, 0 100%);
+  }
+  html[dir='rtl'] .mask-slant {
+    clip-path: polygon(0 0, calc(100% - var(--slant)) 0, 100% 100%, 0 100%);
+  }
+  .mask-arch {
+    border-start-start-radius: 999px;
+    border-start-end-radius: 999px;
+  }
+
+  /* Split text masks (SplitType) */
+  .split-mask .word {
+    overflow: hidden;
+    padding-bottom: 0.14em;
+    margin-bottom: -0.14em;
+    vertical-align: top;
+  }
+  .split-mask .word-inner,
+  .split-mask .char {
+    display: inline-block;
+    will-change: transform;
+  }
+
+  /* Paper / clay grain */
+  .grain::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.06;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.27 0 0 0 0 0.15 0 0 0 0 0.08 0 0 0 .9 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .grid-lines {
+    background-image: linear-gradient(to right, currentColor 1px, transparent 1px);
+    background-size: 25% 100%;
+  }
+
+  .brick-pattern {
+    background-image:
+      linear-gradient(currentColor 1px, transparent 1px),
+      linear-gradient(90deg, currentColor 1px, transparent 1px),
+      linear-gradient(90deg, currentColor 1px, transparent 1px);
+    background-size:
+      64px 24px,
+      64px 48px,
+      64px 48px;
+    background-position:
+      0 0,
+      0 0,
+      32px 24px;
+  }
+}
+
+/* ---------- Utilities ---------- */
+@layer utilities {
+  .origin-start {
+    transform-origin: left center;
+  }
+  .origin-end {
+    transform-origin: right center;
+  }
+  html[dir='rtl'] .origin-start {
+    transform-origin: right center;
+  }
+  html[dir='rtl'] .origin-end {
+    transform-origin: left center;
+  }
+  .flip-rtl {
+    transform: scaleX(var(--dir));
+  }
+  .ltr-nums {
+    direction: ltr;
+    unicode-bidi: isolate;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.year-fill {
+  color: theme('colors.terracotta.DEFAULT');
+  background-size: 170% auto;
+  background-position: 100% 0%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ---------- Custom cursor ---------- */
+@media (hover: hover) and (pointer: fine) {
+  html.has-cursor,
+  html.has-cursor * {
+    cursor: none !important;
+  }
+  html.has-cursor input,
+  html.has-cursor textarea {
+    cursor: text !important;
+  }
+  html.has-cursor select {
+    cursor: pointer !important;
+  }
+}
+
+/* ---------- Reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

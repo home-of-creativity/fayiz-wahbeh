@@ -1,0 +1,17 @@
+node_modules
+dist
+*.local
+.DS_Store
+Thumbs.db
+
+# caches
+.vite
+.cache
+.turbo
+coverage
+*.tsbuildinfo
+npm-debug.log*
+.eslintcache
+
+# unused source copies; the site reads src/assets/images
+/images

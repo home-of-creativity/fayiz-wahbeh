@@ -1,0 +1,471 @@
+{
+  "meta": {
+    "title": "Faiz Wahbeh | Premium Fire Bricks & Clay Tiles Since 1970",
+    "description": "Faiz Wahbeh manufactures premium fire bricks, clay tiles and architectural brick solutions built around durability, craftsmanship and experience since 1970.",
+    "ogAlt": "Brick colonnade and hollow clay bricks by Faiz Wahbeh"
+  },
+  "brand": {
+    "name": "Faiz Wahbeh",
+    "since": "Since 1970",
+    "tagline": "Brick & Clay Solutions"
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "menuTitle": "Site menu",
+    "language": "Choose language",
+    "home": "Faiz Wahbeh — back to top",
+    "mainNav": "Main navigation",
+    "footerNav": "Footer navigation",
+    "backToTop": "Back to top",
+    "loading": "Loading Faiz Wahbeh",
+    "opensNewTab": "opens in a new tab",
+    "viewImage": "View image"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "applications": "Applications",
+    "whyUs": "Why Us",
+    "legacy": "Our Legacy",
+    "contact": "Contact",
+    "quote": "Get a Quote"
+  },
+  "people": {
+    "mohammed": "Mohammed Wahbeh",
+    "omar": "Omar Wahbeh"
+  },
+  "common": {
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "view": "View",
+    "explore": "Explore",
+    "close": "Close"
+  },
+  "hero": {
+    "eyebrow": "Fire bricks · Clay tiles · Architectural bricks",
+    "titleLine1": "Crafted From Earth.",
+    "titleLine2": "Built To Last.",
+    "text": "For generations, Faiz Wahbeh has produced premium fire bricks and clay solutions built around quality, durability, craftsmanship and architectural character.",
+    "primary": "Explore Products",
+    "secondary": "Our Story",
+    "trust": [
+      "Since 1970",
+      "Premium Quality",
+      "Natural Materials",
+      "Trusted Craftsmanship"
+    ],
+    "trustLabel": "What defines us",
+    "imageAlt": "Terracotta brick colonnade with an arched brick oven and stacked hollow clay bricks in warm sunlight",
+    "detailAlt": "Clay roof tiles displayed on stone plinths",
+    "caption": "Clay · Fire · Time"
+  },
+  "about": {
+    "eyebrow": "About the company",
+    "title": "More Than Five Decades of Craftsmanship",
+    "lead": "Established by Fayez Wahbeh in 1970, Faiz Wahbeh focuses on premium brick and clay products for architects, builders, residential and commercial projects, and specialised applications.",
+    "text": "From traditional clay craftsmanship to modern architectural applications, the company continues to build on experience passed across generations — refining materials that are made to be trusted, and built to endure.",
+    "founded": "Established by Fayez Wahbeh",
+    "yearLabel": "Founded",
+    "audiencesTitle": "We work with",
+    "audiences": [
+      "Architects",
+      "Builders & contractors",
+      "Residential projects",
+      "Commercial projects",
+      "Specialised applications"
+    ],
+    "imageAlt": "A craftsman in a Faiz Wahbeh apron measuring a clay brick with a steel ruler",
+    "detailAlt": "Stone villa entrance under a terracotta tile roof"
+  },
+  "legacy": {
+    "eyebrow": "Our legacy",
+    "title": "A Story Written in Clay",
+    "intro": "Each era has shaped how we work — the materials we refine, the projects we serve and the standards we hold ourselves to.",
+    "today": "Today",
+    "items": {
+      "foundation": {
+        "title": "Foundation",
+        "text": "Fayez Wahbeh establishes the company, rooted in traditional brick and clay craftsmanship."
+      },
+      "expansion": {
+        "title": "Production Expansion",
+        "text": "Production grows to answer the needs of builders and construction projects."
+      },
+      "presence": {
+        "title": "Growing Market Presence",
+        "text": "Lasting relationships with contractors, architects and homeowners broaden our reach."
+      },
+      "development": {
+        "title": "Product Development",
+        "text": "The range extends across fire bricks, clay tiles and architectural brick solutions."
+      },
+      "sustainability": {
+        "title": "Sustainability Focus",
+        "text": "Greater attention to responsible production and the natural character of clay."
+      },
+      "today": {
+        "title": "Building for the Future",
+        "text": "Five decades of experience, applied to the needs of modern construction."
+      }
+    }
+  },
+  "values": {
+    "eyebrow": "Core values",
+    "title": "Principles That Hold Everything Together",
+    "intro": "Four commitments guide every brick we produce and every relationship we build.",
+    "items": {
+      "integrity": {
+        "title": "Integrity",
+        "text": "Transparent and ethical business practices, with long-term relationships built on trust.",
+        "alt": "Hands measuring a clay brick with precision"
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "text": "Responsible manufacturing practices and natural materials, with consideration for future generations.",
+        "alt": "Stone villa with a clay tile roof among olive trees"
+      },
+      "quality": {
+        "title": "Quality",
+        "text": "A commitment to reliable manufacturing standards, durability and consistent products.",
+        "alt": "Close-up of overlapping terracotta roof tiles"
+      },
+      "customer": {
+        "title": "Customer-Centricity",
+        "text": "Flexible solutions designed around the requirements of construction and architectural projects.",
+        "alt": "Neatly stacked hollow clay bricks ready for a project"
+      }
+    }
+  },
+  "products": {
+    "eyebrow": "Products",
+    "title": "Materials With Character",
+    "intro": "Four product families, each shaped by the same respect for clay, fire and the people who build with them.",
+    "count": "Product families",
+    "highlightsLabel": "Technical highlights",
+    "cta": "Request this product",
+    "items": {
+      "fireBricks": {
+        "name": "Fire Bricks",
+        "text": "Dense, heat-resistant bricks for furnaces, ovens, chimneys and industrial settings that demand durability at high temperatures.",
+        "highlights": [
+          "Heat resistance",
+          "Durability",
+          "Multiple dimensions",
+          "Industrial applications"
+        ],
+        "ideal": "Suited to kilns, furnaces, chimneys and fireplaces.",
+        "alt": "Stacks of hollow clay bricks beneath a brick colonnade"
+      },
+      "clayTiles": {
+        "name": "Clay Tiles",
+        "text": "Natural clay tiles that bring warmth, weather resistance and lasting architectural character to roofs and facades.",
+        "highlights": [
+          "Natural clay",
+          "Weather resistance",
+          "Architectural character",
+          "Multiple forms"
+        ],
+        "ideal": "Suited to pitched roofs, villas and heritage-inspired architecture.",
+        "alt": "Three terracotta roof tiles displayed on stone blocks"
+      },
+      "architecturalBricks": {
+        "name": "Architectural Bricks",
+        "text": "Facing and decorative bricks for expressive masonry — from contemporary facades to timeless garden walls.",
+        "highlights": [
+          "Decorative masonry",
+          "Durability",
+          "Architectural flexibility",
+          "Timeless appearance"
+        ],
+        "ideal": "Suited to facades, feature walls, colonnades and landscaping.",
+        "alt": "Clay bricks arranged in front of a sunlit brick colonnade"
+      },
+      "ovenSolutions": {
+        "name": "Oven Solutions",
+        "text": "Brick solutions for traditional ovens, barbecue areas and outdoor kitchens built to live with heat every day.",
+        "highlights": [
+          "Brick ovens",
+          "Barbecue areas",
+          "Traditional kitchens",
+          "High-temperature environments"
+        ],
+        "ideal": "Suited to homes, restaurants and bakeries.",
+        "alt": "Outdoor kitchen with an arched brick oven and brick counters"
+      }
+    }
+  },
+  "manufacturing": {
+    "eyebrow": "Manufacturing",
+    "title": "Crafted With Precision",
+    "text": "Quality starts with raw materials, manufacturing experience and consistent production standards.",
+    "steps": [
+      {
+        "title": "Selected clay",
+        "text": "Natural raw materials chosen for strength and consistency."
+      },
+      {
+        "title": "Shaped & fired",
+        "text": "Forming and firing guided by decades of production experience."
+      },
+      {
+        "title": "Checked & ready",
+        "text": "Consistent standards before every order leaves the yard."
+      }
+    ],
+    "imageAlt": "Hollow clay bricks moving along an industrial production line"
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "Support From Kiln to Construction Site",
+    "text": "Beyond the product itself, we help projects run smoothly — from selecting the right material to getting it on site.",
+    "cta": "Discuss your project",
+    "items": {
+      "manufacturing": {
+        "name": "Manufacturing",
+        "text": "Production of fire bricks, clay tiles and architectural bricks to consistent standards."
+      },
+      "custom": {
+        "name": "Custom Brick Solutions",
+        "text": "Dimensions, forms and finishes adapted to the requirements of your design."
+      },
+      "supply": {
+        "name": "Project Supply",
+        "text": "Supply planning for residential, commercial and industrial projects."
+      },
+      "guidance": {
+        "name": "Technical Guidance",
+        "text": "Advice on choosing the right material for heat, weather and structural needs."
+      },
+      "delivery": {
+        "name": "Delivery and Logistics",
+        "text": "Coordinated delivery to your site, scheduled around your construction timeline."
+      },
+      "bulk": {
+        "name": "Bulk Orders",
+        "text": "Large-volume orders for contractors, developers and distributors."
+      }
+    }
+  },
+  "applications": {
+    "eyebrow": "Applications",
+    "title": "Where Our Materials Live",
+    "intro": "From family homes to industrial facilities, brick and clay bring strength and character to every kind of project.",
+    "items": {
+      "residential": {
+        "title": "Residential Construction",
+        "text": "Villas, homes and residential complexes that gain warmth and lasting value from natural clay.",
+        "alt": "Modern brick villa with a patterned brick screen and olive trees"
+      },
+      "commercial": {
+        "title": "Commercial Projects",
+        "text": "Offices, retail and hospitality buildings with durable, expressive brick facades.",
+        "alt": "Commercial building with a long brick colonnade and glass facade"
+      },
+      "landscape": {
+        "title": "Landscaping and Urban Design",
+        "text": "Colonnades, walkways, garden walls and public spaces shaped with timeless masonry.",
+        "alt": "Brick colonnade walkway with arches and greenery"
+      },
+      "industrial": {
+        "title": "Industrial Developments",
+        "text": "Fire bricks and heavy-duty masonry for factories, furnaces and high-temperature facilities.",
+        "alt": "Industrial production hall with stacked clay bricks"
+      },
+      "ovens": {
+        "title": "Ovens and Outdoor Kitchens",
+        "text": "Brick ovens, barbecue areas and outdoor kitchens built to handle heat every day.",
+        "alt": "Outdoor kitchen with a wood-fired brick oven"
+      }
+    }
+  },
+  "why": {
+    "eyebrow": "Why choose us",
+    "title": "Built on Experience. Chosen for Trust.",
+    "intro": "Architects, builders and homeowners return to us for the same reasons we started: honest materials and dependable work.",
+    "yearLabel": "Experience since",
+    "yearText": "More than five decades of working with clay, fire and the people who build with them.",
+    "items": [
+      {
+        "title": "Premium Quality",
+        "text": "Carefully produced materials that meet the expectations of demanding projects."
+      },
+      {
+        "title": "Durability",
+        "text": "Clay products made to withstand heat, weather and time."
+      },
+      {
+        "title": "Natural Materials",
+        "text": "Made from natural clay — a material trusted in construction for generations."
+      },
+      {
+        "title": "Architectural Versatility",
+        "text": "Forms and finishes that suit traditional and contemporary design alike."
+      },
+      {
+        "title": "Customer Service",
+        "text": "Direct communication with a team that understands your project."
+      },
+      {
+        "title": "Reliable Supply",
+        "text": "Dependable production and delivery that keep your schedule on track."
+      }
+    ]
+  },
+  "sustainability": {
+    "eyebrow": "Sustainability",
+    "titleLine1": "Built From Natural Materials.",
+    "titleLine2": "Designed For Tomorrow.",
+    "text": "Clay is one of the oldest building materials on earth. We respect it by working responsibly and producing materials that last — so buildings can serve generations, not seasons.",
+    "points": [
+      "Natural clay",
+      "Responsible manufacturing",
+      "Long service life"
+    ],
+    "imageAlt": "Stone villa with a terracotta tile roof surrounded by olive trees at sunset"
+  },
+  "gallery": {
+    "eyebrow": "Architectural showcase",
+    "title": "Brick in Every Setting",
+    "intro": "A look at the textures, forms and spaces that brick and clay make possible.",
+    "items": {
+      "colonnade": {
+        "caption": "Brick colonnade residence",
+        "category": "Architectural bricks",
+        "alt": "Residential brick colonnade with tall arches"
+      },
+      "tiles": {
+        "caption": "Clay roof, close up",
+        "category": "Clay tiles",
+        "alt": "Close-up of terracotta roof tiles"
+      },
+      "commercial": {
+        "caption": "Commercial brick building",
+        "category": "Commercial",
+        "alt": "Commercial building with brick columns"
+      },
+      "stack": {
+        "caption": "Tiles ready for site",
+        "category": "Clay tiles",
+        "alt": "Stacked clay roof tiles beside a villa"
+      },
+      "corridor": {
+        "caption": "Brick corridor",
+        "category": "Landscape",
+        "alt": "Brick corridor with arches and a brick oven"
+      },
+      "catalog": {
+        "caption": "Product catalogue",
+        "category": "Catalogue",
+        "alt": "Faiz Wahbeh product catalogue with clay tile samples"
+      },
+      "kitchen": {
+        "caption": "Outdoor brick kitchen",
+        "category": "Oven solutions",
+        "alt": "Brick oven in an outdoor kitchen"
+      }
+    }
+  },
+  "leadership": {
+    "eyebrow": "Leadership",
+    "title": "The People Behind the Name",
+    "text": "Continuing the legacy established by Fayez Wahbeh in 1970. Speak with us directly about your project.",
+    "call": "Call",
+    "whatsapp": "WhatsApp"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let’s Build Something That Lasts.",
+    "text": "Tell us about your project and we will help you choose the right materials, quantities and delivery plan.",
+    "actions": {
+      "quote": "Get a Quote",
+      "call": "Call Us",
+      "email": "Email Us"
+    },
+    "direct": "Speak with us directly",
+    "form": {
+      "title": "Request a quote",
+      "name": "Name",
+      "company": "Company",
+      "email": "Email",
+      "phone": "Phone",
+      "projectType": "Project type",
+      "message": "Message",
+      "select": "Select a project type",
+      "types": {
+        "residential": "Residential",
+        "commercial": "Commercial",
+        "industrial": "Industrial",
+        "landscape": "Landscaping & urban",
+        "ovens": "Ovens & outdoor kitchens",
+        "other": "Other"
+      },
+      "messagePlaceholder": "Products, quantities, location and timeline…",
+      "submitEmail": "Send by Email",
+      "submitWhatsapp": "Send on WhatsApp",
+      "note": "Sending opens your email app or WhatsApp with your details ready — nothing is stored on this website. Online submission can be connected later.",
+      "required": "Required",
+      "contactRequired": "Please add an email or a phone number so we can reply.",
+      "opened": "Your message is ready in your email app. Just press send.",
+      "subject": "Quote request",
+      "labels": {
+        "name": "Name",
+        "company": "Company",
+        "email": "Email",
+        "phone": "Phone",
+        "projectType": "Project type",
+        "message": "Message"
+      }
+    }
+  },
+  "locations": {
+    "eyebrow": "Locations",
+    "title": "Find Us Around Damascus",
+    "intro": "Visit one of our locations or contact the team to arrange a delivery.",
+    "open": "Open in Maps",
+    "mapLabel": "Stylised map of Faiz Wahbeh locations around Damascus",
+    "center": "Damascus",
+    "items": {
+      "adra": {
+        "name": "Adra Industrial",
+        "detail": "Fifth Sector",
+        "region": "Damascus Countryside"
+      },
+      "zablatani": {
+        "name": "Zablatani",
+        "detail": "Number 1",
+        "region": "Damascus"
+      },
+      "ainTarma": {
+        "name": "Ain Tarma",
+        "detail": "",
+        "region": "Damascus Countryside"
+      },
+      "kiswah": {
+        "name": "Al-Kiswah",
+        "detail": "",
+        "region": "Damascus Countryside"
+      }
+    }
+  },
+  "cta": {
+    "title": "Build With Confidence.",
+    "text": "Premium brick and clay solutions shaped by experience since 1970.",
+    "primary": "Request a Quote",
+    "secondary": "Contact Our Team",
+    "imageAlt": "Contemporary brick residence with a long arched colonnade"
+  },
+  "footer": {
+    "description": "Faiz Wahbeh has been producing premium brick and clay solutions since 1970, combining craftsmanship, durability and natural materials for architectural and construction applications.",
+    "navTitle": "Navigate",
+    "productsTitle": "Products",
+    "servicesTitle": "Services",
+    "contactTitle": "Contact",
+    "locationsTitle": "Locations",
+    "rights": "All rights reserved.",
+    "language": "Language"
+  }
+}
