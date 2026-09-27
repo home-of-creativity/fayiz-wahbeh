@@ -161,8 +161,8 @@
         "alt": "Stacks of hollow clay bricks beneath a brick colonnade"
       },
       "clayTiles": {
-        "name": "Clay Tiles",
-        "text": "Natural clay tiles that bring warmth, weather resistance and lasting architectural character to roofs and facades.",
+        "name": "Portuguese Lógica",
+        "text": "Portuguese Lógica clay tiles that bring warmth, weather resistance and lasting architectural character to pitched roofs.",
         "highlights": [
           "Natural clay",
           "Weather resistance",
@@ -170,7 +170,7 @@
           "Multiple forms"
         ],
         "ideal": "Suited to pitched roofs, villas and heritage-inspired architecture.",
-        "alt": "Three terracotta roof tiles displayed on stone blocks"
+        "alt": "Portuguese Lógica clay roof tiles displayed on a stone plinth"
       },
       "architecturalBricks": {
         "name": "Architectural Bricks",
@@ -325,7 +325,7 @@
       "Responsible manufacturing",
       "Long service life"
     ],
-    "imageAlt": "Stone villa with a terracotta tile roof surrounded by olive trees at sunset"
+    "imageAlt": "Aerial view of a villa with Portuguese clay tile roofs, gardens and a pool"
   },
   "gallery": {
     "eyebrow": "Architectural showcase",
@@ -338,9 +338,9 @@
         "alt": "Residential brick colonnade with tall arches"
       },
       "tiles": {
-        "caption": "Clay roof, close up",
+        "caption": "Portuguese Lógica",
         "category": "Clay tiles",
-        "alt": "Close-up of terracotta roof tiles"
+        "alt": "Portuguese Lógica clay tiles covering a stone villa roof"
       },
       "commercial": {
         "caption": "Commercial brick building",

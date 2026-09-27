@@ -55,7 +55,7 @@ export function Sustainability() {
         <div className="relative lg:col-span-6 lg:col-start-7 xl:col-span-6 xl:col-start-7">
           <span aria-hidden className="mask-arch absolute -inset-3 border border-terracotta/25" />
           <AnimatedImage
-            image={images.villaRoof}
+            image={images.villaEstate}
             alt={t('sustainability.imageAlt')}
             sizes="(min-width: 1024px) 48vw, 100vw"
             className="mask-arch aspect-[4/5] lg:aspect-[5/6]"

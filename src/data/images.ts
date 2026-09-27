@@ -12,6 +12,8 @@ import commercialBuilding from '@/assets/images/applications/commercial-brick-bu
 import brickColonnade from '@/assets/images/applications/brick-colonnade.png?responsive';
 import modernColonnade from '@/assets/images/applications/modern-brick-colonnade.png?responsive';
 import villaRoof from '@/assets/images/applications/villa-roof-detail.png?responsive';
+import villaEstate from '@/assets/images/applications/villa-estate-aerial.png?responsive';
+import portugueseRoof from '@/assets/images/applications/portuguese-roof.png?responsive';
 import factoryLine from '@/assets/images/manufacturing/factory-production-line.png?responsive';
 import tilesCloseup from '@/assets/images/contact/roof-tiles-closeup.png?responsive';
 
@@ -30,6 +32,8 @@ export const images = {
   brickColonnade,
   modernColonnade,
   villaRoof,
+  villaEstate,
+  portugueseRoof,
   factoryLine,
   tilesCloseup,
 };

@@ -37,7 +37,7 @@ export const values: Value[] = [
 
 export const gallery: GalleryImage[] = [
   { id: 'colonnade', image: images.modernColonnade },
-  { id: 'tiles', image: images.tilesCloseup },
+  { id: 'tiles', image: images.portugueseRoof },
   { id: 'commercial', image: images.commercialBuilding },
   { id: 'stack', image: images.tilesStack },
   { id: 'corridor', image: images.brickColonnade },
